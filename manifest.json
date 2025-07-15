@@ -1,0 +1,18 @@
+{
+	"name": "Image Search Options",
+	"description": "Image Search Options for Chrome provides a set of highly customizable reverse image search context menu options.",
+	"version": "0.1.0.0",
+	"minimum_chrome_version": "88",
+	"permissions": [ "contextMenus", "activeTab", "storage" ],
+	"host_permissions": [ "http://*/*", "https://*/*" ],
+	"background": {
+		"service_worker": "service-worker.js"
+	},
+	"options_page": "options.html",
+	"icons": {
+		"16": "iso_16.png",
+		"48": "iso_48.png",
+		"128": "iso_128.png"
+	},
+	"manifest_version": 3
+}
